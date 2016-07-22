@@ -1,0 +1,26 @@
+-- LoveExtension.lua
+-- Main file to be included for usage of LoveExtension
+-- Copyright (c) 2011 Robert MacGregor
+
+require("scripts/Vector.lua")
+Input = require("scripts/Input.lua")
+Generic = require("scripts/Generic.lua")
+Explosion = require("scripts/Explosion.lua")
+Core = require("scripts/Core.lua")
+Timer = require("scripts/Timer.lua")
+Shape = require("scripts/Shape.lua")
+Collision = require("scripts/Collision.lua")
+Projectile = require("scripts/Projectile.lua")
+GUI = require("scripts/GUI.lua")
+Draw = require("scripts/Draw.lua")
+Sound = require("scripts/Sound.lua")
+Item = require("scripts/Item.lua")
+Trigger = require("scripts/Trigger.lua")
+Player = require("scripts/Player.lua")
+Enemy = require("scripts/Enemy.lua")
+Image = require("scripts/Image.lua")
+Event = require("scripts/Event.lua")
+GUIManager = require("scripts/GUIManager.lua")
+ObjectManager = require("Scripts/objectManager.lua")
+require("scripts/randomLua.lua")
+mTwister = twister(0)
